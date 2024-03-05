@@ -4,8 +4,8 @@ import {
 } as api from 'pixel_combats/room'
 import { Color } as basic from 'pixel_combats/basic
 
-boost.SaveList.Enable = true
-boost.SaveList.List = [{
+boost.Boost.SaveList.Enable = true
+boost.Boost.SaveList.List = [{
   {
     Name: "Kills", 
     Default: 0
