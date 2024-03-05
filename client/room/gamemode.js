@@ -16,7 +16,7 @@ boost.Boost.SaveList.List = [
 ]
 
 api.Teams.Add("Blud", "Teams/Blue", new basic.Color(0, 0, 1, 0)) 
-api.Teams.OnRequestJoinTeam(function(p, t) {
+api.Teams.OnRequestJoinTeam.Add(function(p, t) {
   t.add(p)
   p.Spawns.Spawn()
   p.Properties.Kills.Value++
