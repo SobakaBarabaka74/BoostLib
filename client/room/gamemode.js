@@ -2,7 +2,7 @@ import * as boost from './BoostLib.js'
 import {
   Teams, LeaderBoard
 } as api from 'pixel_combats/room'
-import { Color } as basic from 'pixel_combats/basic
+import { Color } as basic from 'pixel_combats/basic'
 
 boost.Boost.SaveList.Enable = true
 boost.Boost.SaveList.List = [{
